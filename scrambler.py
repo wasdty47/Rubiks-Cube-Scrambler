@@ -1078,13 +1078,6 @@ btn_solve = ttk.Button(master = frm_scramble, text = "Solve", command = solve)
 btn_solve.grid(row = 1, column = 1, sticky = "nsew")
 
 
-ent_scramble = ttk.Entry(master = frm_scramble, text = "enter scramble")
-ent_scramble.grid(row = 0, column = 2, sticky = "nsew")
-
-
-btn_accept = ttk.Button(master = frm_scramble, text = "accept")
-btn_accept.grid(row = 1, column = 2, sticky = "nsew")
-
 
 
 
