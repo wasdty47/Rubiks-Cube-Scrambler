@@ -586,7 +586,7 @@ lbl_scramble.grid(row = 0, column = 1, sticky = "nsew")
 btn_new_scramble = ttk.Button(master = frm_scramble, text = "New Scramble", command = scramble)
 btn_new_scramble.grid(row = 0, column = 0, sticky = "nsew")
 
-lbl_solve = tk.Label(master = frm_scramble, text = "Press solve button", bg = "white", relief = tk.SUNKEN)
+lbl_solve = tk.Label(master = frm_scramble, text = "Solve will be here", bg = "white", relief = tk.SUNKEN)
 lbl_solve.grid(row = 1, column = 1, sticky = "nsew")
 lbl_solve_txt = tk.Label(master = frm_scramble, text = "Solve", bg = "white")
 lbl_solve_txt.grid(row = 1, column = 0, sticky = "nsew")
