@@ -414,56 +414,39 @@ def scramble():
         
         if turn == " R":
             turn_R()
-            
-        if turn == " R2":
+        elif turn == " R2":
             turn_R2()
-
-        if turn == " R'":
+        elif turn == " R'":
             turn_Rprime()
-        
-        if turn == " L":
+        elif turn == " L":
             turn_L()
-            
-        if turn == " L2":
+        elif turn == " L2":
             turn_L2()
-            
-        if turn == " L'":
+        elif turn == " L'":
             turn_Lprime()
-            
-        if turn == " F":
+        elif turn == " F":
             turn_F()
-            
-        if turn == " F2":
+        elif turn == " F2":
             turn_F2()
-            
-        if turn == " F'":
+        elif turn == " F'":
             turn_Fprime()
-            
-        if turn == " B":
+        elif turn == " B":
             turn_B()
-            
-        if turn == " B2":
+        elif turn == " B2":
             turn_B2()
-            
-        if turn == " B'":
+        elif turn == " B'":
             turn_Bprime()
-            
-        if turn == " U":
+        elif turn == " U":
             turn_U()
-
-        if turn == " U2":
+        elif turn == " U2":
             turn_U2()
-                
-        if turn == " U'":
+        elif turn == " U'":
             turn_Uprime()
-        
-        if turn == " D":
+        elif turn == " D":
             turn_D()
-            
-        if turn == " D2":
+        elif turn == " D2":
             turn_D2()
-            
-        if turn == " D'":
+        elif turn == " D'":
             turn_Dprime()
 
     solve()
